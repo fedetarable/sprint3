@@ -1,0 +1,826 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(245, 126, 239, 0.648);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    background-color: rgba(245, 126, 239, 0.737);
+    margin-bottom: 16px;
+
+
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+nav {
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 0 16px 0 8px;
+    background-color: #e7e7e7;
+    background-color: rgba(203, 103, 198, 0.648);
+    color: white;
+
+
+}
+
+nav a:hover {
+    background-color: black;
+    background-color: rgba(218, 109, 212, 0.648);
+
+    color: white;
+}
+
+a[href="#"] {
+    background-color: black;
+    background-color: rgba(171, 34, 165, 0.648);
+
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.723);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(17, 52, 96);
+    font-size: 4rem;
+}
+
+
+.logo {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(17, 52, 96);
+    font-size: 2rem;
+}
+
+.fotoprincipal img {
+    margin-top: 2rem;
+    width: 70rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.mainhome {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.img2home {
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.parrafohome {
+    display: flex;
+    font-size: 1.2rem;
+    color: rgb(17, 52, 96);
+    margin-top: 10rem;
+
+}
+
+.divhome {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.section-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.imagencontacto {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 3rem;
+}
+
+.divimagencon {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    color: rgb(17, 52, 96);
+    font-size: 2rem;
+}
+
+.phone {
+    color: rgb(17, 52, 96);
+    font-size: 2rem;
+}
+
+.emailphone {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+
+}
+
+.parrafocon {
+    color: rgb(17, 52, 96);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* aboutUs */
+
+.sectionabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.sectionabout div {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.sectionabout img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#img2about {
+    margin-left: 2.5rem;
+}
+
+.sectionabout p {
+    display: flex;
+    font-size: 1.2rem;
+
+}
+
+.parrafoabout {
+    color: rgb(17, 52, 96);
+}
+
+/* footer */
+footer {
+    padding: 2rem;
+    background-color: rgba(245, 126, 239, 0.737);
+
+    text-align: center;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+.emailphone a {
+    color: rgb(29, 29, 119);
+}
+
+footer p {
+    color: rgb(17, 52, 96);
+    font-size: x-large;
+}
+
+/* information y benefitsTips */
+.information-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.information-section p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.section-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 27px;
+}
+
+table {
+    border: 2px solid rgb(17, 52, 96);
+    ;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+th,
+td {
+    padding: 2rem;
+    border: 2px solid rgb(17, 52, 96);
+    ;
+}
+
+.benefits-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#benefits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(17, 52, 96);
+    ;
+    ;
+}
+
+.benefits-section div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.benefits-section img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.img-tips {
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+ol {
+    list-style: none;
+}
+
+ul {
+    margin-top: 2rem;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.list2 {
+    margin-right: -21.5rem;
+}
+
+li {
+    color: rgb(17, 52, 96);
+}
+
+/* raffle */
+
+.main-raffle {
+    flex-direction: column;
+
+}
+
+.caja-raffle {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleh3 {
+    width: 100%;
+    text-align: center;
+}
+
+.formData {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttonRaffle {
+    width: 20%;
+    align-self: flex-end;
+}
+
+.div-form {
+    width: 300px;
+}
+
+.lastButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+fieldset {
+    border: none;
+}
+
+.buttonRaffle {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 8px;
+    margin: 0 16px 0 8px;
+    background-color: rgba(203, 103, 198, 0.648);
+    color: white;
+}
+
+.buttonRaffle:hover {
+    background-color: rgba(218, 109, 212, 0.648);
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        height: 50vh;
+        width: 100%;
+        background-color: rgba(245, 126, 239, 0.737);
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .navDiv {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    nav {
+        /* background-color: red; */
+        width: 100%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 30vh;
+
+    }
+
+    nav a {
+        /* border: 1px solid black; */
+        text-decoration: none;
+        padding: 6px;
+        border-radius: 8px;
+        margin: 4px 0 4px 0;
+        background-color: #e7e7e7;
+        background-color: rgba(203, 103, 198, 0.648);
+        color: white;
+        font-size: 12px;
+
+    }
+
+
+    .logo {
+        display: block;
+        margin: 0px;
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+        background-color: rgba(245, 126, 239, 0.648);
+        line-height: 25px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .fotoprincipal {
+        width: 100%;
+    }
+
+    .fotoprincipal img {
+        width: 95%;
+        height: 150px;
+        margin-left: 5px;
+    }
+
+    .divhome {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img2home {
+        width: 70%;
+        height: auto;
+
+    }
+
+    .parrafohome {
+        width: 90%;
+        margin: auto;
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+
+    footer {
+        height: 10vh;
+
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .sectionabout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .divAbout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divAbout p {
+        font-size: 12px;
+    }
+
+    #img2about {
+        margin-left: 0px;
+    }
+
+    .divimagencon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .parrafocon {
+        font-size: 12px;
+    }
+
+    .imagencontacto {
+        width: 90%;
+        height: 20vh;
+    }
+
+    .emailphone {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 70%;
+        align-self: flex-start;
+    }
+
+    th {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    td {
+        font-size: 14px;
+        padding: 8px;
+
+    }
+
+    .section-info {
+        height: 43vh;
+    }
+
+    #benefits {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .benefits-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .list2 {
+        margin-right: 0rem;
+        width: 80%;
+    }
+
+    .main-raffle {
+        width: 100%;
+        padding: 5px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .div-maps {
+        margin-top: 20px;
+    }
+
+    .main-raffle .caja-raffle {
+        padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .caja-raffle {
+        width: 100%;
+    }
+
+    .showdata {
+        height: 20vh;
+    }
+
+    .navDivData {
+        height: 5vh;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+
+    nav a {
+        padding: 8px;
+        margin: 0 8px 0 8px;
+
+
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .fotoprincipal {
+        width: 100%;
+    }
+
+    .fotoprincipal img {
+        width: 95%;
+        height: 230px;
+        margin-left: 5px;
+    }
+
+    .divhome {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img2home {
+        width: 70%;
+        height: auto;
+
+    }
+
+    .parrafohome {
+        width: 90%;
+        margin: auto;
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+
+    footer {
+        height: 10vh;
+
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .sectionabout {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .divAbout {
+        width: 45vw !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divAbout p {
+        font-size: 16px;
+    }
+
+    #img2about {
+        margin-left: 0px;
+    }
+
+    .divimagencon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .parrafocon {
+        font-size: 16px;
+    }
+
+    .imagencontacto {
+        width: 90%;
+        height: 35vh;
+    }
+
+    .emailphone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+
+
+    th {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    td {
+        font-size: 16px;
+        padding: 12px;
+
+    }
+
+    .section-info {
+        height: 60vh;
+    }
+
+    #benefits {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .benefits-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .benefits-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+        width: 45vw;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .list2 {
+        margin-right: 0rem;
+        width: 80%;
+    }
+
+    .main-raffle {
+        width: 100%;
+        padding: 5px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .div-maps {
+        margin-top: 20px;
+    }
+
+    .main-raffle .caja-raffle {
+        padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .caja-raffle {
+        width: 100%;
+    }
+
+}

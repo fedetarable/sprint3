@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINDY GAMES</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="navDiv">
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="./aboutUs.html">AboutUs</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./information.html">Information</a>
+                <a href="./benefitsTips.html">Benefits and Tips</a>
+                <a href="#">Raffle</a>
+            </nav>
+            <img src="./img/logo.png" alt="logo" class="logo">
+        </div>
+        <h1>MINDY GAMES</h1>
+    </header>
+    <main class="main-raffle">
+        <h2>Raffle</h2>
+
+        <h3 class="titleh3">You can collaborate and register for one of you tournaments</h3>
+        <div class="caja-raffle">
+            <div class="div-maps">
+                <p>Our location where the tournaments are held is at:</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450942.73567663156!2d-82.73447112343412!3d27.994198599401237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1684440824935!5m2!1ses!2sar"
+                    width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="div-form">
+                <form action="./show_data.html" method="get" class="formData">
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="Fname" placeholder="John">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="Lname" placeholder="Doe">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="E-mail" placeholder="mindy@mindygames.com">
+                    </fieldset>
+                    <fieldset>
+                        <label for="game">Choose Game</label>
+                        <select name="Game" id="game">
+                            <option value="default">Pick one Option</option>
+                            <option value="LOL">League Of Legend</option>
+                            <option value="Valorant">Valorant</option>
+                            <option value="CS">Counter-Strike</option>
+                        </select>
+                        <label for="date">Choose Date</label>
+                        <select name="Date" id="date">
+                            <option value="default">Pick one Option</option>
+                            <option value="20/08">20/08</option>
+                            <option value="12/10">12/10</option>
+                            <option value="27/11">27/11</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Payment Options</legend>
+                        <label for="cash">
+                            <input type="radio" id="cash" name="Pay" value="Cash">Cash
+                        </label>
+                        <label for="credit">
+                            <input type="radio" id="credit" name="Pay" value="Credit">Credit Card
+                        </label>
+                        <label for="debit">
+                            <input type="radio" id="debit" name="Pay" value="Debit">Debit Card
+                        </label>
+                        <legend>Message(Optional)</legend>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset class="lastButton">
+                        <label for="accept">
+                            <input type="checkbox" id="accept" name="Accept" value="accept">I accept terms and
+                            condition.
+                        </label>
+                        <input type="submit" value="Enviar" class="buttonRaffle">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Created by: Federico Tarable</p>
+    </footer>
+</body>
